@@ -1,0 +1,19 @@
+#!/bin/sh
+# old version (without -$pkgrel): ${1%%-*}
+# new version (without -$pkgrel): ${2%%-*}
+
+post_install() {
+    dkms install naga/${1%%-*}
+}
+
+pre_upgrade() {
+    pre_remove ${2%%-*}
+}
+
+post_upgrade() {
+    post_install ${1%%-*}
+}
+
+pre_remove() {
+    dkms remove naga/${1%%-*} --all
+}
