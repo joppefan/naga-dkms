@@ -56,7 +56,7 @@ static int naga_event(struct hid_device *hdev, struct hid_field *field,
 
 
 static const struct hid_device_id naga_devices [] = {
-  { HID_USB_DEVICE(0x1532, 0x0040) },
+  { HID_USB_DEVICE(0x1532, 0x0053) },
   { }
 };
 

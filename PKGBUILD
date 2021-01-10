@@ -7,7 +7,7 @@ pkgver=1
 pkgrel=1
 pkgdesc="Razer Naga keypad remap module (DKMS)"
 arch=('i686' 'x86_64')
-url="https://github.com/rikiji/razer-naga"
+url="https://github.com/joppefan/naga-dkms"
 license=('GPL2')
 depends=('dkms')
 conflicts=("${_pkgbase}")
@@ -17,7 +17,7 @@ source=('naga.c'
         'naga-dkms.install'
         'Makefile'
 )
-sha256sums=('e0c507cef29c804af8cfc074188cb25106d017640531d4753106b793090ddc6a'
+sha256sums=('97002bcc8fdf69ee3c5efca0850ac8b3a6ffb0cad228c827036cc91af9894ff3'
             'bc05aa364ff818d1c7d06a0afd68793aae2c01997441b780aef81e304584ef76'
             '93b93b6e453a1f2b31a0db956d259a5d2142a75f930e01502c38c0fedbfe272b'
             'e49974880fe56036f35a3c5dd51d870cb74a0317a0aee8139156a0974c33ac13')
