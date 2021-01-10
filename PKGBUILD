@@ -1,4 +1,6 @@
 #!/bin/sh
+# Maintainer: Johan Nilsson
+# Contributor: Rokas Kupstys (Original creator)
 _pkgbase=naga
 pkgname=${_pkgbase}-dkms
 pkgver=1
@@ -15,7 +17,7 @@ source=('naga.c'
         'naga-dkms.install'
         'Makefile'
 )
-sha256sums=('fd3b5f925a40f91f1a8dc1139eb2a6006b07ab210cc66a5cd11afbe96d9f99f1'
+sha256sums=('e0c507cef29c804af8cfc074188cb25106d017640531d4753106b793090ddc6a'
             'bc05aa364ff818d1c7d06a0afd68793aae2c01997441b780aef81e304584ef76'
             '93b93b6e453a1f2b31a0db956d259a5d2142a75f930e01502c38c0fedbfe272b'
             'e49974880fe56036f35a3c5dd51d870cb74a0317a0aee8139156a0974c33ac13')

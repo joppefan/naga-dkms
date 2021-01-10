@@ -15,18 +15,18 @@ struct naga_translation {
 };
 
 static const struct naga_translation naga_sidepad_translation[] = {
-  { KEY_1, KEY_F13 },
-  { KEY_2, KEY_F14 },
-  { KEY_3, KEY_F15 },
-  { KEY_4, KEY_F16 },
-  { KEY_5, KEY_F17 },
-  { KEY_6, KEY_F18 },
-  { KEY_7, KEY_F19 },
-  { KEY_8, KEY_F20 },
-  { KEY_9, KEY_F21 },
-  { KEY_0, KEY_F22 },
-  { KEY_MINUS, KEY_F23 },
-  { KEY_EQUAL, KEY_F24 },
+  { KEY_1, KEY_KP1 },
+  { KEY_2, KEY_KP2 },
+  { KEY_3, KEY_KP3 },
+  { KEY_4, KEY_KP4 },
+  { KEY_5, KEY_KP5 },
+  { KEY_6, KEY_KP6 },
+  { KEY_7, KEY_KP7 },
+  { KEY_8, KEY_KP8 },
+  { KEY_9, KEY_KP9 },
+  { KEY_0, KEY_KP0 },
+  { KEY_MINUS, KEY_KPMINUS },
+  { KEY_EQUAL, KEY_KPPLUS },
   { }
 };
 
